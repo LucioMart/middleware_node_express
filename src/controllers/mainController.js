@@ -12,7 +12,7 @@ const controller = {
         return res.render('register')
     },
     admin: (req, res) => {
-        return res.render('detail')
+        return res.render('admin')
     },
     detail: (req, res) => {
         return res.render('detail')
